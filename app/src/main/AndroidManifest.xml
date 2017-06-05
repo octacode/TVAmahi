@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="octacode.allblue.code.tvamahi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:banner="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Leanback">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Leanback">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IntroActivity"
+            android:theme="@style/Theme.Leanback.Onboarding"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Leanback.Browse"></activity>
+        <activity
+            android:name=".DetailActivity"
+            android:theme="@style/Theme.Leanback.VerticalGrid"></activity>
+        <activity
+            android:name=".VideoDetailActivity"
+            android:theme="@style/Theme.Leanback.Details"></activity>
+        <activity
+            android:name=".SignOutStepActivity"
+            android:theme="@style/SettingsTheme"></activity>
+        <activity
+            android:name=".ConnectionPreferenceStepActivity"
+            android:theme="@style/SettingsTheme"></activity>
+        <activity
+            android:name=".ThemePreferenceStepActivity"
+            android:theme="@style/Theme.Leanback.GuidedStep"></activity>
+        <activity
+            android:name=".WebViewActivity"
+            android:theme="@style/Theme.AppCompat"></activity>
+        <activity
+            android:name=".ImageActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+        <activity android:name=".PresenterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

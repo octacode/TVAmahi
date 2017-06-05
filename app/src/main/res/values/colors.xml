@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="intro1">#0277bd</color>
+    <color name="intro2">#43a047</color>
+    <color name="intro3">#424242</color>
+    <color name="intro4">#e53935</color>
+    <color name="background">#efefef</color>
+    <color name="title_view_background">#1976D2</color>
+</resources>

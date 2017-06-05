@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.Leanback">
+        <item name="android:colorBackground">#efefef</item>
+    </style>
+    
+    <style name="Theme.Leanback.Main" parent="Theme.Leanback.Browse">
+        <item name="android:background">#efefef</item>
+        <item name="browseTitleTextStyle">@style/MyCustomRowHeaderStyle</item>
+    </style>
+
+    <style name="MyCustomRowHeaderStyle" parent="Widget.Leanback.Row.Header">
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="customTitle" parent="Widget.Leanback.Title.Text">
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="SettingsTheme" parent="Theme.Leanback.GuidedStep">
+        <item name="guidedActionsBackgroundDark">@android:color/black</item>
+        <item name="guidedStepBackground">@color/intro1</item>
+    </style>
+</resources>
